@@ -17,7 +17,7 @@ Shows full expressions  in the history
 Built with clean and maintainable code
 
 🚀 Live Demo:
-Check it out on Netlify (update this after deploying)
+Check it out on Netlify (https://calculatorbynitesh1.netlify.app/)
 
 📁 Technologies Used:
 HTML5
