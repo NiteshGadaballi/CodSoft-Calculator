@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator_By Nitesh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="toggleHistoryBtn">Show History</button>
+    <div class="container">
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputbox">
+        <div>
+            <button class="redbtn">AC</button>
+            <button class="extra">%</button>
+            <button class="extra">&larr;</button>
+            <button class="equals">&#247;</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="equals">&times;</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="equals">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="equals">&#x2b;</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>&#x2022;</button>
+            <button class="equals">=</button>
+        </div>
+    </div>
+    <div class="history-section" id="historySection" style="display: none;">
+        <h2>History</h2>
+        <ul id="historyList"></ul>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
